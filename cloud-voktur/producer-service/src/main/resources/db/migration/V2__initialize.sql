@@ -1,0 +1,22 @@
+insert into products (title, price)
+values
+('Boots', 50.00),
+('Pants', 40.00),
+('Book', 15.00),
+('Pizza', 10.00),
+('Hat', 20.00),
+('Shirt', 25.00),
+('Towel', 8.00),
+('Coffee', 3.00),
+('Car', 20000.00),
+('Tea', 4.00),
+('Bread', 5.00),
+('Socks', 5.00),
+('Dress', 85.00),
+('Knife', 6.00),
+('Fork', 6.00),
+('Spoon', 6.00),
+('Jacket', 100.00),
+('Coat', 150.00),
+('Mat', 15.00),
+('IceCream', 3.00);

@@ -1,0 +1,15 @@
+server:
+  port: 13678
+
+eureka:
+  client:
+    serviceUrl.defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    fetch-registry: true
+
+spring:
+  application:
+    name: products-consumer
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8

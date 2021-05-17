@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New</title>
+</head>
+<body>
+
+<form th:method="POST" th:action="@{/api/v1/show}" th:object="${product}">
+    <label for="title">Enter title: </label>
+    <input type="text" th:field="*{title}" id="title"/>
+    <br/>
+    <label for="price">Enter price: </label>
+    <input type="text" th:field="*{price}" id="price"/>
+    <br/>
+    <input type="submit" value="Create"/>
+</form>
+
+</body>
+</html>
